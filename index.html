@@ -16,18 +16,18 @@
 <body>
 
     <!-- main  -->
-    <div class="main h-screen w-screen">
+    <div class="main h-screen w-screen overflow-x-hidden">
 
-        <div class="section1 h-full w-full bg-gradient-to-b from-[#000001] to-[#09304F] relative">
+        <div class="section1  w-full bg-gradient-to-b from-[#000001] to-[#09304F] relative">
 
             <!-- nav -->
             <div
-                class="nav w-full px-10   md:px-24 flex  justify-center md:justify-between items-center border-white border-b-[0.001em] md:border-b-0">
+                class="nav w-full px-10   md:px-[12em] flex  justify-center md:justify-between items-center border-white border-b-[0.001em] md:border-b-0">
                 <h2 class="md:hidden text-2xl font-semibold text-white text-center">ePlatform </h2>
 
                 <h2 class="text-2xl font-semibold text-white hidden  md:inline-block">ePlatform</h2>
                 <div
-                    class="nav_links text-white hidden md:inline  md:flex md:gap-12 md:items-center md:font-medium text-sm">
+                    class="nav_links text-white hidden md:inline  md:flex md:gap-12 md:items-center font-medium text-sm">
                     <a class="" href="#">Features</a>
                     <a class="" href="#">Customers</a>
                     <a class="" href="#">Pricing</a>
@@ -35,7 +35,7 @@
                     <a class="" href="#">Contact</a>
                     <button class="my-4 px-4 py-1  font-medium text-sm text-white ">Sign In</button>
                     <button
-                        class="my-4 px-2 py-1.5 bg-zinc-700 border-white border-[2px]  font-medium  text-sm text-white  hover:bg-[#2ec4b6] hover:text-[#011627]">GET
+                        class="my-4 px-2 py-1.5 bg-zinc-700 border-white border-[2px]   text-sm text-white  hover:bg-[#2ec4b6] hover:text-[#011627]">GET
                         STARTED
                     </button>
 
@@ -45,8 +45,8 @@
 
             <!--  hero_section -->
             <div
-                class=" w-full hero_section flex items-center flex-col md:flex-row md:justify-between  md:items-center  px-10 md:px-24  mt-10">
-                <div class="left w-full   md:w-1/2   text-white text-center">
+                class=" w-full hero_section flex items-center flex-col md:flex-row md:justify-between  md:items-center  px-10 md:px-[12em]  mt-10 py-8">
+                <div class="left w-full   md:w-1/2   text-white text-center md:text-left">
                     <h3 class="text-sm font-normal md:text-base  md:font-medium mb-4">ALL-IN-ONE EVENT MANAGEMENT
                         SOFTWARE</h3>
                     <h1 class="text-2xl font-medium  md:text-5xl w-full  md:w-[80%] md:font-bold">Built for the events
@@ -68,7 +68,7 @@
                 <div class="right w-full  md:w-1/2  flex justify-center items-center"><video class="w-[80%] md:w-[100%]"
                         src="banner-intro.webm" autoplay muted loop></video>
                 </div>
-                <div class="md:hidden w-full h-[3em] bg-white absolute bottom-0 flex  ">
+                <div class="md:hidden w-full h-[3em] bg-white absolute bottom-0 flex  fixed">
 
                     <div
                         class="child w-[10%] h-full border-black border-r-[0.001em] flex justify-center items-center px-6">
@@ -84,12 +84,12 @@
                 </div>
 
             </div>
+
         </div>
 
-
         <!-- section2 -->
-        <div class="section2  w-full bg-gradient-to-b from-[#09304E] to-[#000001] relative">
-            <div class="section2_box w-full flex   py-4  md:py-8   gap-2 justify-between   items-center">
+        <div class="section2   ">
+            <div class="section2_box w-full flex   py-4  md:py-8   gap-2 justify-between   items-center w-full bg-gradient-to-b from-[#082D4B] to-[#011D22]">
                 <div class="w-full box  flex justify-between items-center px-10 shrink-0">
                     <div class="w-[5%]">
                         <img src="images/amazon-white.png" alt="">
@@ -146,10 +146,61 @@
             </div>
 
 
+            <!-- section2_part2 -->
+            <div class="section2_part2 w-full   bg-gradient-to-b from-[#011E26] to-[#000000] py-10">
+                <h1 class="text-xl text-center text-white md:text-2xl font-medium mt-10 px-6 w-[90%] md:w-full">The simplest way to host all your events
+                </h1>
+           
+            <div
+                class=" w-full hero_section flex items-center flex-col md:flex-row md:justify-between  md:items-center  px-10 md:px-[12em]  gap-4 mt-10">
+                
+                <div class="child rounded-xl w-full md:w-[33%] bg-gradient-to-b from-[#271740] to-[#4F1651]">
+                    <div class="top text-white p-6 md:p-10 text-center">
+                        <h1 class=" text-2xl font-medium">In-person event</h1>
+                        <h3 class="text-lg font-medium">Keep it all together at the venue</h3>
+                        <button
+                            class="my-4 px-6 py-3 bg-[#FFFFFF] text-sm text-black rounded-full text-sm font-medium">Explore
+                            More</button>
+                    </div>
+                    <div class="bottom  px-10 md:px-16 pb-10  ">
+                        <video src="inperson-event.webm" autoplay muted loop class="rounded-2xl"></video>
+                    </div>
+                </div>
+
+                <div class="child w-full md:w-[33%] rounded-xl bg-gradient-to-b from-[#4A53C6] to-[#4DD5F6] py-2">
+                    <div class="top text-white p-6 md:p-10  text-center">
+                        <h1 class=" text-2xl font-medium">In-person event</h1>
+                        <h3 class="text-lg font-medium">Keep it all together at the venue</h3>
+                        <button
+                            class="my-4 px-6 py-3 bg-[#FFFFFF] text-sm text-black rounded-full text-sm font-medium">Explore
+                            More</button>
+                    </div>
+                    <div class="bottom px-10 md:px-16 pb-10  ">
+                        <video src="virtual-event.webm" autoplay muted loop class="rounded-2xl"></video>
+                    </div>
+                </div>
+
+                <div class="child w-full md:w-[33%] rounded-xl bg-gradient-to-b from-[#E9B8CD] to-[#B9C7EA] py-2">
+                    <div class="top   p-6 md:p-10  text-center">
+                        <h1 class=" text-2xl font-medium">In-person event</h1>
+                        <h3 class="text-lg font-medium">Keep it all together at the venue</h3>
+                        <button
+                            class="my-4 px-6 py-3 bg-[#FFFFFF] text-sm text-black rounded-full text-sm font-medium">Explore
+                            More</button>
+                    </div>
+                    <div class="bottom px-10 md:px-16 pb-10  ">
+                        <video src="hybrid-event.webm" autoplay muted loop class="rounded-2xl"></video>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        
+
+        </div>
+
+
     </div>
+
 </body>
 
 </html>
